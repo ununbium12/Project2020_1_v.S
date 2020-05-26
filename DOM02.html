@@ -1,0 +1,25 @@
+<!--
+    * Fill Name: DOM02.html v0.0
+    * Update: 2020.05.26
+    * Author: developern
+-->
+
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM02</title>
+        <script>
+            window.onload = function () {
+                var header = document.getElementById('header');
+                header.style.color = 'blue';
+                header.style.backgroundColor = 'red';
+                header.innerHTML = "자바 스크립트 DOM 연습중";
+            };
+        </script>
+    </head>
+    <body>
+        <h1 id="header">여기 아무것도 없어도 문장이 삽입됨.</h1>
+    </body>
+</html>

@@ -1,5 +1,10 @@
 # Project2020_1 - 정다훈
 
+## 05월 26일 DOM
+> DOM 내용 <br>
+class는 html, id는 javascript 에 사용하는 것을 권장 <br>
+스크립트로 id를 잡고 사용시 내용이 아무것도 없어도 넣을 수 있음 <br>
+
 ## 05월 19일 bootstrap
 > 학교 버전 시작 <br>
 bootstrap 내용추가

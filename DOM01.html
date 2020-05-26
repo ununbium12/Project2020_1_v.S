@@ -1,5 +1,5 @@
 <!--
-    * Fill Name: index.html v0.0
+    * Fill Name: DOM01.html v0.0
     * Update: 2020.05.26
     * Author: developern
 -->
@@ -12,15 +12,27 @@
         <title>DOM01</title>
         <script>
             window.onload = function () {
-                // h1 tag 배경 색상 변경
+                var header = document.getElementById('header');
+                header.style.color = 'blue';
+                header.style.backgroundColor = 'red';
+                header.innerHTML = "자바 스크립트 DOM 연습중";
+                /* // h1 tag 배경 색상 변경
                 document.querySelector('h1').style.backgroundColor = 'red';
                 // h2 tag 글자 색상 변경
                 document.querySelector('h2').style.color = 'red';
-            }
+                */
+            };
         </script>
     </head>
     <body>
-        <h1>Process - 1</h1>
+        <h1 id="header">여기 아무것도 없어도 문장이 삽입됨.</h1>
+        <!-- <h1>Process - 1</h1>
         <h2>Process - 2</h2>
+        <script>
+            // h1 tag 배경 색상 변경
+            document.querySelector('h1').style.backgroundColor = 'red';
+            // h2 tag 글자 색상 변경
+            document.querySelector('h2').style.color = 'red';
+        </script> -->
     </body>
 </html>

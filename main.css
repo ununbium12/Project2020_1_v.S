@@ -1,5 +1,5 @@
 /*
-* Fill Name: main.html v0.13.2
+* Fill Name: main.html v0.13.3
 * Update: 2020.05.19
 * Author: developern
 */
@@ -348,6 +348,10 @@ caption {
 
 .Ss-bg {
     position: relative;
+}
+
+.FNsi {
+    font-size: 24px;
 }
 
 /* footer */

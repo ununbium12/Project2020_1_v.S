@@ -1,0 +1,32 @@
+<!--
+    * Fill Name: DOM03.html v0.0
+    * Update: 2020.05.26
+    * Author: developern
+-->
+
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM03</title>
+        <script>
+            window.onload = function () {
+                var headers = document.querySelectorAll('h1');
+                for (var i=0; i<headers.length; i++) {
+                    var header = headers[i];
+                    header.style.color = 'yellow';
+                    header.style.background = 'red';
+                    header.innerHTML = "엘리먼트 다중 선택";
+                };
+            };
+        </script>
+    </head>
+    <body>
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+    </body>
+</html>

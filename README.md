@@ -1,4 +1,4 @@
-# Project2020_1_v.S - 정다훈
+# Project2020_1 - 정다훈
 
 ## 05월 19일 bootstrap
 > 학교 버전 시작 <br>

@@ -1,0 +1,52 @@
+<!--
+    * Fill Name: jQuery13.html v0.0
+    * Update: 2020.06.02
+    * Author: developern
+-->
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>정다훈의 홈페이지</title>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+        <link href="vendor/covid-19-statistics/dist/css/covid19.css" rel="stylesheet" />
+        <script src="vendor/covid-19-statistics/dist/js/covid19stats.js"></script>
+    </head>
+    <body>
+        <div id="covid-widget-kr"></div>
+        <br>
+        <div id="covid-widget-us"></div>
+        <br>
+        <div id="covid-widget-jp"></div>
+        <br>
+        <script>
+            $.covid19stats({
+                element: "#covid-widget-kr",
+                countryCode: "KR",
+                showImg: true,
+                showCases: true,
+                showDeaths: true,
+                showRecovered: true,
+                showRightLabel: true
+            });
+            $.covid19stats({
+                element: "#covid-widget-us", 
+                countryCode: "US",
+                showCases: true,
+                showDeaths: true,
+                showRecovered: true,
+                showRightLabel: true
+            });
+            $.covid19stats({
+                element: "#covid-widget-jp", 
+                countryCode: "JP",
+                showCases: true,
+                showDeaths: true,
+                showRecovered: true,
+                showRightLabel: true
+            });
+        </script>
+    </body>
+</html>

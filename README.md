@@ -1,5 +1,49 @@
 # Project2020_1 - 정다훈
 
+## 06월 02일 jQuery
+> jQuery - <br>
+예)<br>
+$(document).ready(function() {<br>
+$(선택자).메서드(매개변수, 매개변수);<br>
+});<br>
+<br>
+ajax - 비동기 디스플레이어를 해주는 것(전체를 교환하는 것이 아닌 일부만)<br>
+<br>
+내용 -<br>
+jQuery 라이브러리 설정<br>
+문서 객체 선택<br>
+문서 객체 조작<br>
+이벤트<br>
+시각 효과<br>
+<br>
+클래스를 조작 -<br>
+addClass()<br>
+removeClass()<br>
+toggleClass()<br>
+- 만약 이것을 사용할때 class 태그를 사용할 경우 동작하지 않고, 무조건 id에서만<br> 발동된다.<br>
+<br>
+이벤트 -<br>
+on() 이벤트 연결<br>
+off() 이벤트 제거<br>
+<br>
+시각 효과 -<br>
+메서드<br>
+toggle 사라졌다가 보였다를 사용할 수 있다.<br>
+이외의 것은 사라지기만 하거나 보여기지만 한다.<br>
+<br>
+입력 양식 포커스 -<br>
+<br>
+문서 객체 생성과 추가<br>
+<br>
+무한 스크롤 -<br>
+<br>
+Covid19 통계 제작 <br>
+<br>
+플러그인 -<br>
+LightBox<br>
+Masonry
+
+
 ## 05월 26일 DOM
 > DOM 내용 <br>
 onload는 html문서를 먼저 받은 후 스크립트 파일을 실행 <br>

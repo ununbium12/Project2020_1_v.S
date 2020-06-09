@@ -1,5 +1,48 @@
 # Project2020_1 - 정다훈
 
+## 06월 09일 mediaQuery
+> 뷰포트 -<br>
+viewport mata 태그<br>
+<br>
+미디어 쿼리 -<br>
+규칙=rule<br>
+ = 스타일시트 내부에서 특정한 규칙을 표현하는 데 사용<br>
+ = @import 규칙 - 외부 스타일을 가져옴<br>
+ = @font-face 규칙 - 글꼴을 추가로 정의<br>
+<br>
+예)<br>
+@media'<'미디어 쿼리> {<br>
+       '<'css 코드><br>
+}<br>
+(a) @media 규칙<br>
+<br>
+media 속성<br>
+ = link 태그에 입력해서 해당 미디어 쿼리 조건에 맞는 장치에다만 css 파일을 불러올떄 사용<br>
+'<'link rel="stylesheet" href="<파일 이름>" meidia="<미디어 쿼리>"><br>
+<br>
+미디어 타입과 특징 -<br>
+ = orientation을 제외한 모든 속성은 min 접두사와 max 접두사를 붙일 수 있음<br>
+ = and 연산자를 사용해 조건을 합칠 수도 있음<br>
+<br>
+orientation=<br>
+세로 방향 Portrait<br>
+가로 방향 Landscape<br>
+<br>
+git fork 와 git clone 의 차이 -<br>
+ = 단순히 프로젝트를 복사하고자 할 경우에는 clone, 협업을 위해 프로젝트를 복사하는 경우에는 fork를 사용<br>
+<br>
+개발 참여 과정<br>
+ = Fork(참여자)<br>
+ = clone, remote설정 (참여자)<br>
+ = branch 생성 (참여자)<br>
+ = 수정 작업 후, add commit, push (참여자)<br>
+ = Pull Request 생성 (참여자)<br>
+ = 코드리뷰, Merge Pullrequest (관리자)<br>
+ = Merge 이후 branch 삭제 및 동기화 (관리자)<br>
+<br>
+= 1. Project생성, commit → 2. push → 3. fork → 4. clone5. branch후 commeit(develop) <br> → 6. push → 7. PR → 8. Merge Pull Request Confirm merge → 9. pull
+
+
 ## 06월 02일 jQuery
 > jQuery - <br>
 예)<br>

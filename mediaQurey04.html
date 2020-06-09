@@ -1,0 +1,55 @@
+<!--
+    * Fill Name: mediaQuery04.html v0.0
+    * Update: 2020.06.09
+    * Author: developern
+-->
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>정다훈의 홈페이지</title>
+        <style>
+            * { margin: 0; padding: 0; }
+            body {
+                width: 960px;
+                margin: 0 auto;
+                overflow: hidden;
+            }
+            #menu {
+                width: 260px;
+                float: left;
+            }
+            .art01 {
+                width: 700px;
+                float: right;
+            }
+            li {
+                list-style: none;
+            }
+            @media screen and (max-width: 767px) {
+                /* 스마트폰 사이즈에서는 전부 해제합니다. */
+                body { width: auto; }
+                #menu { width: auto; float: none; }
+            .art01 { width: auto; float: none; }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="menu">
+            <ul>
+                <li>메뉴A</li>
+                <li>메뉴B</li>
+                <li>메뉴C</li>
+            </ul>
+        </div>
+        <div class="art01">
+            <h1>Lorem ipsum dolor sit amet</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </body>
+</html>
